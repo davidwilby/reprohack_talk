@@ -1,0 +1,274 @@
+---
+title: "What is :recycle:  Reproducibility?"
+subtitle: "*and why should I care?*"
+format: revealjs
+author: ":man_teacher: **Dr David Wilby** (he/him)"
+institute: "Open Data Science Summer School<br>Wellcome Trust DTC in Public Health, Economics & Descision Science"
+date: "Thurs 4th Aug 2022"
+from: markdown+emoji
+smaller: true
+---
+
+## Schedule
+
+<font size="5">
+
+|       |      |
+|---    |---    |
+|   09:30   |    Welcome and Orientation    |
+|   09:40   |    **TALK: David Wilby: Research Reproducibility.**    |
+|   10:00   |    Tips and Tricks for Reproducing and Reviewing.     |
+|   10:15   |    Select Papers, Team Fomation, Chat and Coffee     |
+|   10:45   |    Round I of ReproHacking    |
+|   12:15   |    Re-group and sharing of experiences    |
+|   12:30   |    LUNCH      |
+|   13:30   |    Round II of ReproHacking   |
+|   14:45   |    Coffee break &    **TALK: Bob Turner: FAIR 4 Research Software**  |
+|   15:15   |    Round III of ReproHacking - Complete Feedback form     |
+|   16:15   |    Re-group and sharing of experiences    |
+|   16:30   |    Feedback and Closing   |
+
+: {tbl-colwidths="[15,85]"}
+
+</font>
+
+Event page: [reprohack.org/event/18](https://www.reprohack.org/event/18/)
+
+## How do we do research?
+
+![](/assets/images/research-cycle.jpg){fig-align="center"}
+
+<font size="3">
+*The Turing Way* project illustration by [Scriberia](https://www.scriberia.com). Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://dx.doi.org/10.5281/zenodo.3332807)
+</font>
+
+## How do we do research?
+
+![](/assets/images/publication_cycle.png){fig-align="center"}
+
+<font size="3">Image: [Rebus
+community](https://press.rebus.community/literaturereviewsedunursing/chapter/chapter-2-what-is-a-literature-review/)</font>
+
+
+## What is reproducibility?
+
+![How the Turing Way defines reproducible
+research](/assets/images/turing-way-definitions.jpg){fig-align="center"}
+
+<font size="3">Image: [The Turing
+Way](https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions.html)</font>
+
+
+## Why is reproducibility important for research?
+
+<br>
+
+::: incremental
+- ## Verification :heavy_check_mark:
+- ## Re-use :recycle:
+- ## Longevity :hourglass_flowing_sand:
+- ## Efficiency :watch:
+:::
+
+## Is there a problem with reproducibility?
+
+![](assets/images/ioannidis.png){fig-align="center"}
+
+<font size="5">[Ioannidis (2005) PLoS
+Medicine](https://doi.org/10.1371/journal.pmed.0020124)</font>
+
+## Different kinds of reproducibility
+
+<br>
+
+::: incremental
+- ## Experimental :scientist:
+    - **Resource-intensive**
+    - **Costly**
+    - **Harder to describe**
+- ## Analytical :technologist:
+    - **Well-represented by code**
+    - **Probably easier to reproduce**
+   
+:::
+
+## What *isn't* reproducibility?
+
+#### Definitely not :x:
+
+> "...results were produced using custom MATLAB scripts..."
+
+> "Code/data available on reasonable request.."
+
+<br>
+
+#### Up for debate :question:
+
+-   Equations only?
+-   Proprietary software?
+-   Spreadsheets?
+
+. . .
+
+> only those who are faultless have the right to pass judgment on others
+
+:woman_beard: <font size="4">*[paraphrasing] Jesus, John 8:7, Christian Bible*</font>
+
+## How can we do it? (1/2)
+
+<br>
+
+::: incremental
+
+-   Research data management :floppy_disk:
+-   Version control :octopus:
+-   Open source development :woman_technologist:
+-   Documentation :scroll:
+-   Tutorials :woman_teacher:
+-   Literate programming (e.g. [rmarkdown](https://rmarkdown.rstudio.com/), [quarto](https://quarto.org/), [jupyter notebooks](https://jupyter.org/))
+-   Envrionment management (e.g. [Conda](https://conda.io/) :snake:, [renv](https://rstudio.github.io/renv/articles/renv.html) :rat:, [docker](https://docker.com/) :whale:)
+-   Talk to each other! :busts_in_silhouette:
+
+:::
+
+## How can we do it? (2/2)
+
+::: columns
+::: {.column width="50%"}
+[![](assets/images/turing_way.jpg)](https://the-turing-way.netlify.app)
+:::
+
+::: {.column width="50%"}
+-   Resources:
+    -   [The Turing Way](https://the-turing-way.netlify.app)
+    -   [BES Guide to Reproducible Research
+        Code](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf)
+    -   Support from:
+        -   Colleagues
+        -   Collaborators
+        -   Library Team
+        -   RSE Team
+        -   Wider communities
+:::
+:::
+
+## Barriers to reproducibility :construction:
+
+. . .
+
+<br>
+
+*sensu* [The Turing Way](https://the-turing-way.netlify.app/reproducible-research/overview/overview-barriers.html)
+
+* Requires additional skills
+* May make you (feel) vulnerable
+* Publication bias toward novel findings
+* Limited benefit to career advancement
+* Support other users of your code
+* Can make your mistakes public
+
+## Advantages :tada:
+
+<br>
+
+* Validation
+* Reusability
+* Longevity
+* Efficiency
+
+. . .
+
+* Facilitate collaboration and review process
+* Publish validated research and avoid misinformation
+* Write your papers, thesis and reports efficiently
+* Get credits for your work fairly
+* Ensure continuity of your work
+
+## **Now it's time to..**
+
+![](https://github.com/reprohack/reprohack-hq/raw/master/assets/reprohack-banner.png)
+
+. . .
+
+1. ### :page_with_curl: Find an interesting paper
+2. ### :dart: Try to follow the authors' instructions to reproduce it!
+3. ### :tipping_hand_person: Give friendly feedback
+4. ### :superhero_woman: Learn!
+
+
+## Choosing a paper
+
+1. **Get up and look around the room** :eyes:
+2. **Choose from Reprohack database: [reprohack.org/paper](https://www.reprohack.org/paper/)** :books:
+
+. . .
+
+### Consider:
+
+::: {.incremental}
+* **programming language & tools**
+* **topic**
+* **computational intensity**
+* **previous reproducibility score**
+* **use the tags or search to narrow down**
+* **could I learn something new?**
+:::
+
+## Reproducing the paper
+
+<br>
+
+- ### where is the code?
+- ### where is the data?
+- ### what hardware do you need to run the code?
+- ### what software do you need to run the code?
+- ### are there instructions to follow?
+
+## Reviewing
+
+<font size="6">**Think about:**</font>
+
+- **how easy was it to get the data?** :floppy_disk:
+- **how easy was it to get the code?** :computer:
+- **what was or wasn't documented well?** :open_book:
+- **reproducibility score (?/10)** :slot_machine:
+
+. . .
+
+### Be kind!
+
+👀 [**ReproHack Code of Conduct**](https://reprohack.org/code-of-conduct)
+
+. . .
+
+### Additional Considerations
+
+- #### Reproducibility is hard!
+
+- #### Submitting authors are incredibly brave!
+
+## Thank you Authors! :raised_hands:
+
+<br>
+
+- ### Without them there would be no ReproHack
+
+<br>
+
+- ### Show gratitude and appreciation for their effort and courage :pray:
+
+<br>
+
+- ### Constructive criticism only please!
+
+## How to ReproHack
+
+1.  **Choose a paper**
+    -   **from [reprohack.org/paper/](http://reprohack.org/paper/)**
+    -   **or from those in the room**
+2.  **Find some team mates (if you like!)**
+3.  **Have a go at reproducing the results**
+4.  **Feed back to the author(s) - nicely!**
+    - **Find your paper on [reprohack.org](http://reprohack.org)**
+    - **Fill in the feedback form**
+5.  *Optionally* **repeat**! :grinning:
