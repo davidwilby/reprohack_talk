@@ -5,6 +5,7 @@ format: revealjs
 author: ":man_teacher: **Dr David Wilby** (he/him)"
 institute: "Open Data Science Summer School<br>Wellcome Trust DTC in Public Health, Economics & Descision Science"
 date: "Thurs 4th Aug 2022"
+footer: "**slides**: [davidwilby.dev/reprohack_talk](https://davidwilby.dev/reprohack_talk) - **improve this talk!** [github.com/davidwilby/reprohack_talk](https://github.com/davidwilby/reprohack_talk)"
 from: markdown+emoji
 smaller: true
 ---
@@ -32,7 +33,7 @@ smaller: true
 
 </font>
 
-Event page: [reprohack.org/event/18](https://www.reprohack.org/event/18/)
+<div style="text-align: center">**Event page**: [reprohack.org/event/18](https://www.reprohack.org/event/18/)</div>
 
 ## How do we do research?
 
@@ -72,10 +73,10 @@ Way](https://the-turing-way.netlify.app/reproducible-research/overview/overview-
 
 ## Is there a problem with reproducibility?
 
-![](assets/images/ioannidis.png){fig-align="center"}
+<div style="text-align: center"><font size="5">[Ioannidis (2005) PLoS
+Medicine](https://doi.org/10.1371/journal.pmed.0020124)</font></div>
 
-<font size="5">[Ioannidis (2005) PLoS
-Medicine](https://doi.org/10.1371/journal.pmed.0020124)</font>
+![](assets/images/ioannidis.png){fig-align="center"}
 
 ## Different kinds of reproducibility
 
@@ -99,8 +100,6 @@ Medicine](https://doi.org/10.1371/journal.pmed.0020124)</font>
 > "...results were produced using custom MATLAB scripts..."
 
 > "Code/data available on reasonable request.."
-
-<br>
 
 #### Up for debate :question:
 
