@@ -3,7 +3,7 @@ title: "What is :recycle:  Reproducibility?"
 subtitle: "*and why should I care?*"
 format: revealjs
 author: ":man_teacher: **Dr David Wilby** (he/him)"
-institute: "Open Data Science Summer School<br>Wellcome Trust DTC in Public Health, Economics & Descision Science"
+institute: "Open Data Science Summer School<br>Wellcome Trust DTC in Public Health, Economics & Decision Science"
 date: "Thurs 4th Aug 2022"
 footer: "**slides**: [davidwilby.dev/reprohack_talk](https://davidwilby.dev/reprohack_talk) - **improve this talk!** [github.com/davidwilby/reprohack_talk](https://github.com/davidwilby/reprohack_talk)"
 from: markdown+emoji
