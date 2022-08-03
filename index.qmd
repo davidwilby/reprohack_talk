@@ -37,7 +37,7 @@ smaller: true
 
 ## How do we do research?
 
-![](/assets/images/research-cycle.jpg){fig-align="center"}
+![](assets/images/research-cycle.jpg){fig-align="center"}
 
 <font size="3">
 *The Turing Way* project illustration by [Scriberia](https://www.scriberia.com). Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://dx.doi.org/10.5281/zenodo.3332807)
@@ -45,7 +45,7 @@ smaller: true
 
 ## How do we do research?
 
-![](/assets/images/publication_cycle.png){fig-align="center"}
+![](assets/images/publication_cycle.png){fig-align="center"}
 
 <font size="3">Image: [Rebus
 community](https://press.rebus.community/literaturereviewsedunursing/chapter/chapter-2-what-is-a-literature-review/)</font>
@@ -54,7 +54,7 @@ community](https://press.rebus.community/literaturereviewsedunursing/chapter/cha
 ## What is reproducibility?
 
 ![How the Turing Way defines reproducible
-research](/assets/images/turing-way-definitions.jpg){fig-align="center"}
+research](assets/images/turing-way-definitions.jpg){fig-align="center"}
 
 <font size="3">Image: [The Turing
 Way](https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions.html)</font>
