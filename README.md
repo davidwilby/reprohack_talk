@@ -27,4 +27,4 @@ Quarto documents can be rendered in either:
 
 Full instructions can be found at the link above, however in brief:
 * In RStudio, open `index.qmd`, above the document click `Render`
-* In the terminal, run `quarto render index.qmd`
+* In the terminal, run `quarto render`
