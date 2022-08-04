@@ -1,4 +1,5 @@
 on:
+  workflow_dispatch:
   push:
     branches: pages-test
 
@@ -18,12 +19,13 @@ jobs:
           tinytex: true 
           # uncomment below and fill to pin a version
           # version: 0.9.600
+      - run: |
+          mkdir pages
+          quarto render index.qmd --output-dir pages
       
-      # add software dependencies here
-
-      - name: Publish to GitHub Pages (and render)
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
+      - name: Copy To Branches Action
+        uses: planetoftheweb/copy-to-branches@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
+          key: pages-test
+          branches: pages
+          files: pages/*
