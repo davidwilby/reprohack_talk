@@ -19,7 +19,7 @@ smaller: true
 |   09:30   |    Welcome and Orientation    |
 |   09:40   |    **TALK: David Wilby: Research Reproducibility.**    |
 |   10:00   |    Tips and Tricks for Reproducing and Reviewing.     |
-|   10:15   |    Select Papers, Team Fomation, Chat and Coffee     |
+|   10:15   |    Select Papers, Team Formation, Chat and Coffee     |
 |   10:45   |    Round I of ReproHacking    |
 |   12:15   |    Re-group and sharing of experiences    |
 |   12:30   |    LUNCH      |
